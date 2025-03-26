@@ -1,12 +1,22 @@
-# React + Vite
+# Electronic Battery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este pequeño proyecto es parte de la certificación de **Librerías de desarrollo de la interfaz** de [freeCodeCamp](https://www.freecodecamp.org/). Se trata de una **Drum Machine** construida con **React**, que permite reproducir sonidos de batería al hacer clic en los botones o presionar las teclas correspondientes en el teclado.
 
-Currently, two official plugins are available:
+## Características
+- Nueve pads de batería con sonidos predefinidos.
+- Reproducción de sonido al hacer clic en los pads o al presionar las teclas `Q`, `W`, `E`, `A`, `S`, `D`, `Z`, `X`, `C`.
+- Control de volumen.
+- Interruptor de encendido y apagado.
+- Muestra en pantalla el nombre del sonido reproducido.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologías utilizadas
+- **React** para la interfaz de usuario.
+- **CSS** para los estilos.
 
-## Expanding the ESLint configuration
+## Aplicación desplegada
+Puedes ver la aplicación en acción en el siguiente enlace:
+[[https://tu-usuario.github.io/drum-machine/](https://electronic-battery.netlify.app/)]
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Créditos
+Este proyecto forma parte del plan de estudios de freeCodeCamp y fue desarrollado como parte de la certificación en **Librerías de desarrollo de la interfaz**.
+
