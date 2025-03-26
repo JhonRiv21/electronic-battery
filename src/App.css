@@ -1,0 +1,115 @@
+:root {
+  --white: #F5F5F5;
+}
+
+body {
+  background-color: #1b2631;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  font-family: "Roboto", "sans-seriff";
+  overflow-x: none;
+}
+
+.container {
+  border: 5px solid var(--white);
+  width: 600px;
+  min-height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+   padding: 30px;
+}
+
+.container-buttons-play {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  width: 100%;
+}
+
+.buttons-play {
+  padding: 30px;
+  border: 1px solid var(--white);
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+}
+
+.buttons-play:hover {
+ opacity: 60%;
+}
+
+.container-tools {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.power {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.power > p {
+  color: var(--white);
+  font-size: 20px;
+}
+
+.power > button {
+  padding: 10px 40px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.kick {
+  padding: 2px 40px;
+  margin: 20px 0px;
+  background-color: gray;
+  color: var(--white);
+}
+
+.clip {
+  display: none;  
+}
+
+.volume {
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.volume > label {
+  color: var(--white);
+  font-size: 20px;
+}
+
+.volume > input {
+  width: 100%;
+  min-width: 200px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    flex-direction: column;
+    width: 90%;
+  }
+  
+  .container-buttons-play {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .container-tools {
+    width: auto;
+  }
+}
