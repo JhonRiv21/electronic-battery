@@ -15,7 +15,7 @@ Este pequeño proyecto es parte de la certificación de **Librerías de desarrol
 
 ## Aplicación desplegada
 Puedes ver la aplicación en acción en el siguiente enlace:
-[[https://tu-usuario.github.io/drum-machine/](https://electronic-battery.netlify.app/)]
+[(https://electronic-battery.netlify.app/)](https://electronic-battery.netlify.app/)]
 
 ## Créditos
 Este proyecto forma parte del plan de estudios de freeCodeCamp y fue desarrollado como parte de la certificación en **Librerías de desarrollo de la interfaz**.
