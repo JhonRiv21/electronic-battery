@@ -13,10 +13,6 @@ Este pequeño proyecto es parte de la certificación de **Librerías de desarrol
 - **React** para la interfaz de usuario.
 - **CSS** para los estilos.
 
-## Aplicación desplegada
-Puedes ver la aplicación en acción en el siguiente enlace:
-[(https://electronic-battery.netlify.app/)](https://electronic-battery.netlify.app/)]
-
 ## Créditos
 Este proyecto forma parte del plan de estudios de freeCodeCamp y fue desarrollado como parte de la certificación en **Librerías de desarrollo de la interfaz**.
 
